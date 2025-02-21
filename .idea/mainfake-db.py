@@ -63,5 +63,13 @@ colunas = [
 ]
 df_vendas = pd.DataFrame(dados, columns=colunas)
 
+# Salvando os dados em um arquivo Excel
+df_vendas.to_excel("vendas_veiculos.xlsx", index=False)
+print("Arquivo Excel 'vendas_veiculos.xlsx' gerado com sucesso!")
+
+# Salvando os dados em um arquivo CSV
+df_vendas.to_csv("vendas_veiculos.csv", index=False)
+print("Arquivo CSV 'vendas_veiculos.csv' gerado com sucesso!")
+
 # Exibindo as primeiras linhas
 print(df_vendas)
