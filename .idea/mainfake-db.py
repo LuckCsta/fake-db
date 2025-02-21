@@ -16,6 +16,10 @@ marcas_modelos = {
     "Renault": ["Kwid", "Sandero", "Duster", "Logan", "Captur"],
     "Nissan": ["Versa", "Kicks", "Sentra", "March", "Altima"],
     "BMW": ["X1", "X3", "X5", "320i", "520i"],
+    "Mercedes": ["A200", "CLA-45", "Classe A", "Classe C", "GLE 400"],
+    "Audi": ["A1", "A3", "Q3", "A5", "TT"],
+    "Volvo": [""XC40", "XC60", "S90"],
+    "Jeep": ["Renegade", "Compass", "Cherokee", "Defender"]
 }
 
 formas_pagamento = ["A vista", "Financiamento", "Consórcio", "Leasing"]
