@@ -302,8 +302,8 @@ info_text = """
 Dados Gerados:
 • Informações de clientes
 • Detalhes de veículos
-• Dados de pagamentos
-• Perfis de consumidores
+• Dados de pagamentos (Tipo, número de parcelas e taxa de juros)
+• Perfis de consumidores (Histórico de compra e preferência de marcas)
 
 Formatos Suportados:
 • CSV (separado por vírgulas)
