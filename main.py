@@ -275,7 +275,7 @@ formato_combo = ttk.Combobox(
 )
 formato_combo.pack(pady=5)
 
-# Frame para botões
+# Frame dos botões
 button_frame = ttk.Frame(main_frame)
 button_frame.pack(pady=20)
 
